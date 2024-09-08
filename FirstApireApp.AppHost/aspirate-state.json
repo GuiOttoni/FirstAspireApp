@@ -1,0 +1,22 @@
+{
+  "projectPath": ".",
+  "outputPath": "aspirate-output",
+  "containerImageTags": [
+    "latest"
+  ],
+  "containerBuilder": "docker",
+  "outputFormat": "compose",
+  "privateRegistryEmail": "aspir8@aka.ms",
+  "secrets": {
+    "salt": "0jawbTjxig//2z2x",
+    "hash": "jPazMPmuOtCXFHeknL0ffdoaydGyy532Sqf0vJzciHk=",
+    "secrets": {
+      "cache": {},
+      "apiservice": {},
+      "webfrontend": {
+        "ConnectionStrings__cache": "0jawbTjxig//2z2xwKPDYXw/AchwffNOCglkrS0Paq\u002BwJfrmEb8="
+      }
+    }
+  },
+  "processAllComponents": true
+}
